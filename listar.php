@@ -6,6 +6,10 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 ?>
 
 	<div class="col-xs-12">
+	    <!--Comentario de listar productos -->
+		<!--Comentario de listar productos -->
+		<!--Comentario de listar productos -->
+		<!--Comentario de listar productos -->
 		<h1>Lista de todos los Productos</h1>
 		<div>
 			<a class="btn btn-success" href="./formulario.php">Nuevo <i class="fa fa-plus"></i></a>
