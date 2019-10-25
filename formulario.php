@@ -1,5 +1,5 @@
 <?php include_once "encabezado.php" ?>
-
+<h1>Formulario</h1>
 <div class="col-xs-12">
 	<h1>Nuevo producto</h1>
 	<form method="post" action="nuevo.php">
