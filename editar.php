@@ -13,6 +13,7 @@ if($producto === FALSE){
 ?>
 <?php include_once "encabezado.php" ?>
 	<div class="col-xs-12">
+	    <!--Comentario en editar.php -->
 		<h1>Editar producto con el ID <?php echo $producto->id; ?></h1>
 		<form method="post" action="guardarDatosEditados.php">
 			<input type="hidden" name="id" value="<?php echo $producto->id; ?>">
